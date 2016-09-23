@@ -36,7 +36,7 @@ def pair_sum?(arr,target_sum)
   false
 end
 
-# TODO optimize!
+# TODO THIS SHIT IS ALMOST NP
 def n_sum?(arr, n, target_sum)
 
   level_sums = Array.new(n) {Set.new}
